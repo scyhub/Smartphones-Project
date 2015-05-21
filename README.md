@@ -20,18 +20,30 @@ At this point, the 'test.train.mean.std.dataset' data frame is completed by addi
 The R script sets 'stringsAsFactors' to FALSE at the beginning of the script to prevent character vectors from being converted to factors. This setting is reverted to TRUE near the end of the script. The R script also includes several calls to the rm function to remove unnecessary objects from the global environment. 
 
 The R script 'run_analysis.R' was created using the RStudio IDE Version 0.98.1103 and the details of the platform R is running on are:
-
 R version 3.2.0 (2015-04-16)
+
 Platform: i386-w64-mingw32/i386 (32-bit)
+
 Running under: Windows Vista (build 6002) Service Pack 2
 
+
+
 locale:
+
 [1] LC_COLLATE=English_United States.1252  LC_CTYPE=English_United States.1252
+
 [3] LC_MONETARY=English_United States.1252 LC_NUMERIC=C
+
 [5] LC_TIME=English_United States.1252
 
+
+
 attached base packages:
+
 [1] stats     graphics  grDevices utils     datasets  methods   base
 
+
+
 loaded via a namespace (and not attached):
+
 [1] tools_3.2.0
