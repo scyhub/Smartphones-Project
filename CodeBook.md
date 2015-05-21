@@ -2,7 +2,7 @@
 
 This document contains a description of the variables included in the text file HARbySGS.txt that results of running the R script run_analysis.R created for the project of the Coursera course: Getting and Cleaning Data.
 
-The text file HARbySGS.txt contains information about a total of 68 variables, with 180 different observations for each of them, i.e., the file contains 68 columns and 180 rows of data - plus a row with a header at the beginning -. This data were collected during the experiment *Human Activity Recognition Using Smartphones Data Set* described in: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The text file HARbySGS.txt contains information about a total of 68 variables, with 180 different observations for each of them, i.e., the file contains 68 columns and 180 rows of data - plus a row with a header at the beginning -. These data were collected during the experiment *Human Activity Recognition Using Smartphones Data Set* described in: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Specifically, the variables included in the text file HARbySGS.txt are:
 
