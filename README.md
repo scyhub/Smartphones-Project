@@ -1,6 +1,6 @@
 # Smartphones-Project
 
-This repository contains the R script and the code book created for the project of the Coursera course: Getting and Cleaning Data. The R script prepares the data collected from the accelerometers from the Samsung Galaxy S smartphone during the experiment about human activity recognition described in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones .
+This repository contains the R script and the code book created for the project of the Coursera course: Getting and Cleaning Data. The R script prepares the data collected from the accelerometers from the Samsung Galaxy S smartphone during the experiment about human activity recognition described in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The R script works as follows:
 
@@ -17,9 +17,9 @@ At this point, the 'test.train.mean.std.dataset' data frame is completed by addi
 
 * Sixth, it creates an independent tidy data set from the data set obtained at the end of the previous step, that contains the average of each measurement for each activity and each subject. This new data set is created from the extended version of the 'test.train.mean.std.dataset' using the aggregate function with the 'subjectID' and the 'activity' variables as grouping elements and the mean function as the function to compute the summary statistics. Then, it writes the resulting data set 'summarized.dataset' as a txt file using the function write.table.
 
-The R script sets stringsAsFactors to FALSE at the beginning of the script to prevent character vectors from being converted to factors. This setting is reverted to TRUE near the end of the script. The R script also includes several calls to the rm function to remove unnecessary objects from the global environment. 
+The R script sets 'stringsAsFactors' to FALSE at the beginning of the script to prevent character vectors from being converted to factors. This setting is reverted to TRUE near the end of the script. The R script also includes several calls to the rm function to remove unnecessary objects from the global environment. 
 
-The R script 'run_analysis.R' was created using the RStudio IDE Version 0.98.1103 and the details of the plataform R is running on are:
+The R script 'run_analysis.R' was created using the RStudio IDE Version 0.98.1103 and the details of the platform R is running on are:
 R version 3.2.0 (2015-04-16)
 Platform: i386-w64-mingw32/i386 (32-bit)
 Running under: Windows Vista (build 6002) Service Pack 2
